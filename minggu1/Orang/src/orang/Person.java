@@ -18,12 +18,20 @@ public class Person {
     public static void main(String[] args) {
         // TODO code application logic here
          Scanner input = new Scanner(System.in);
-         System.out.print("FName = ");
-         String frame = input.next();
+         System.out.println("FName = ");
+         String fname = input.next();
          
          
-         System.out.print("LName = ");
+         System.out.println("LName = ");
          String lname = input.next();
+         
+         
+         System.out.println("Studentid = ");
+         String stuld = input.next();
+         
+         
+         System.out.println("Status = ");
+         String stuStatus = input.next();
          
          
     }    
