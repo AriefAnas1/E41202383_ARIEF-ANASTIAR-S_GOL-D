@@ -24,14 +24,14 @@ public class Managingpeople
          
          
          
-         if(p1.getAge()==p2.getAge())
-         {
-             System.out.println(p1.getName()+ " is the same age as "+p2.getName());
-         }
-         else
-         {
-             System.out.println(p1.getName()+ " is NOT the same age as "+p2.getName());
-         }    
+        if(p1.getAge()==p2.getAge())
+        {
+            System.out.println(p1.getName()+ " is the same age as "+p2.getName());
+        }
+        else
+        {
+            System.out.println(p1.getName()+ " is NOT the same age as "+p2.getName());
+        }    
     }
     
 }
