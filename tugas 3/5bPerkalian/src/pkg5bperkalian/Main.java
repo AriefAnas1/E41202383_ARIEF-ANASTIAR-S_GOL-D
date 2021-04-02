@@ -16,8 +16,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         System.out.println("");
         System.out.println("Bilangan perkalian 2 (0-100)");
+        
         System.out.println("============================");
         int j = 0;
         do{
@@ -25,13 +27,11 @@ public class Main {
             j = 1;            
         }
             else{
-                System.out.print(j * 2 + "");
+                System.out.print(j*2 + " ");
             }
-            
             j++;
-            
         }
-        while(j <= 100);
+        while(j<=100);
     }
     
 }
