@@ -28,7 +28,7 @@ public class TreeApp {
         theTree.insert(30, "Bayu");
         theTree.insert(33, "Firdaus");
         theTree.insert(87, "Ricky");
-        theTree.insert(93, "Ninis");
+        theTree.insert(93, "Nadya");
         theTree.insert(97, "Arief");
         
         while (true) {
